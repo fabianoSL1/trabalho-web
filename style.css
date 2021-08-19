@@ -25,18 +25,15 @@ nav {
     text-align : right;
     font-size : 20px;
 }
-/*
-.flex-row {
-    display : flex;
-    flex-wrap : wrap;
-    justify-content : space-between;
+
+#cardapio > .title {
+    float : left;
+    width : 100%;
 }
-*/
+
 .container {
     margin : 0 auto;
     max-width : 920px;
-/*  display : flex; */
-/*  flex-direction : column; */
 }
 
 .row {
@@ -44,14 +41,12 @@ nav {
     width : fit-content;
     clear: both;
 }
+
 .row .card {
     display : inline-block;
     float : left;
 }
-#cardapio > .title {
-    float : left;
-    width : 100%;
-}
+
 .clear {
     clear: both;
 }
@@ -102,8 +97,19 @@ nav {
     padding-top : 1.5rem;
 }
 
+.card .title,
+.card .descr,
+.card .price {
+    margin-top : 16px;
+}
+
+.card .descr {
+    text-align : justify;
+}
+
 .card .img-container {
    border-radius : 8px;
+   max-height : 148px;
 }
 
 .features .card h3 {
@@ -116,10 +122,19 @@ nav {
     line-height : 1.5;
 }
 
+.logo {
+    width : 480px;    
+    margin-right : auto;
+    margin-left : auto;
+}
+
+.logo img {
+    width : 100%;
+}
+
 .rodape{
     background-color:rgb(184, 184, 112) ;
     color:rgb(233, 24, 24);
     padding: 30px;
     text-align: center;
-
 }
