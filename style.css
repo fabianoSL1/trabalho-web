@@ -138,9 +138,87 @@ nav {
     width : 100%;
 }
 
-.rodape{
-    background-color:rgb(184, 184, 112) ;
-    color:rgb(233, 24, 24);
-    padding: 30px;
-    text-align: center;
+.footer {
+display: flex;
+flex-flow: row wrap;
+padding: 50px;
+color: #fff;
+background-color: #5f3e2a;
+}
+
+.footer > * {
+flex:  1 100%;
+}
+
+.l-footer {
+margin-right: 1.25em;
+margin-bottom: 2em;
+}
+.l-footer img{
+    width: 40%;
+}
+h3 {
+font-weight: 500;
+font-size: 20px;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+line-height: 2em;
+}
+
+.footer a {
+text-decoration: none;
+}
+
+.r-footer {
+display: flex;
+flex-flow: row wrap;
+}
+
+.r-footer > * {
+flex: 1 100%;
+margin-right: 10em;
+}
+
+.box a {
+color: #999;
+}
+
+.h-box {
+column-count: 1;
+column-gap: .25em;
+}
+
+.b-footer {
+text-align: center;
+color: #999;
+padding-top: 50px;
+}
+
+.l-footer p {
+padding-right: 20%;
+color: #999;
+}   
+
+@media screen and (min-width: 600px) {
+.r-footer > * {
+flex: 1;
+}
+
+.features {
+flex-grow: 2;
+}
+
+.l-footer {
+flex: 1 0px;
+}
+
+.r-footer {
+flex: 2 0px;
+}
 }
