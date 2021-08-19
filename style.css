@@ -25,18 +25,35 @@ nav {
     text-align : right;
     font-size : 20px;
 }
-
+/*
 .flex-row {
     display : flex;
     flex-wrap : wrap;
     justify-content : space-between;
 }
-
+*/
 .container {
     margin : 0 auto;
     max-width : 920px;
-    display : flex;
-    flex-direction : column;
+/*  display : flex; */
+/*  flex-direction : column; */
+}
+
+.row {
+    margin : 0 auto;
+    width : fit-content;
+    clear: both;
+}
+.row .card {
+    display : inline-block;
+    float : left;
+}
+#cardapio > .title {
+    float : left;
+    width : 100%;
+}
+.clear {
+    clear: both;
 }
 
 .img-container {
@@ -63,25 +80,25 @@ nav {
 
 .sub-title {
     font-weight : 400;
-    padding : 0 4em;
+    padding : 0 64px;
 }
 
 .margin-top-small {
-    margin-top : 1rem;
+    margin-top : 16px;
 }
 
 .margin-top-medium {
-    margin-top : 3rem;
+    margin-top : 48px;
 }
 
 
 .margin-top-large {
-    margin-top : 10rem;
+    margin-top : 160px;
 }
 
 .card {
     max-width : 250px;
-    margin : 1rem;
+    margin : 16px;
     padding-top : 1.5rem;
 }
 
@@ -95,7 +112,7 @@ nav {
 
 .features .card p {
     text-align : center;
-    padding : 1rem;
+    padding : 14px;
     line-height : 1.5;
 }
 
