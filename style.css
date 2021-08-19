@@ -112,6 +112,12 @@ nav {
    max-height : 148px;
 }
 
+.features .card {
+    background-color : rgba(0, 0, 0, 0.1);
+    border-radius : 8px;
+    height : 148px;
+}
+
 .features .card h3 {
     text-align : center;
 }
