@@ -99,3 +99,10 @@ nav {
     line-height : 1.5;
 }
 
+.rodape{
+    background-color:rgb(184, 184, 112) ;
+    color:rgb(233, 24, 24);
+    padding: 30px;
+    text-align: center;
+
+}
