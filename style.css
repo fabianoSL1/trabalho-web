@@ -1,0 +1,101 @@
+/* 
+ * Cores
+ * https://coolors.co/9c914f-748e54-202c39-80302a-283845 
+ *
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    font-family : 'Roboto', sans-serif;
+    color : #283845;
+}
+
+a {
+    text-decoration : none;
+    color : #202C39;
+    margin : 1rem;
+}
+
+nav {
+    text-align : right;
+    font-size : 20px;
+}
+
+.flex-row {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-between;
+}
+
+.container {
+    margin : 0 auto;
+    max-width : 920px;
+    display : flex;
+    flex-direction : column;
+}
+
+.img-container {
+    overflow : hidden;
+}
+
+.img-container img {
+    width : 100%;
+}
+
+.img-intro {
+    height : 420px;
+    border-radius : 32px;
+}
+
+.title,
+.sub-title {
+    text-align : center;
+}
+
+.title {
+    color: #80302a;
+}
+
+.sub-title {
+    font-weight : 400;
+    padding : 0 4em;
+}
+
+.margin-top-small {
+    margin-top : 1rem;
+}
+
+.margin-top-medium {
+    margin-top : 3rem;
+}
+
+
+.margin-top-large {
+    margin-top : 10rem;
+}
+
+.card {
+    max-width : 250px;
+    margin : 1rem;
+    padding-top : 1.5rem;
+}
+
+.card .img-container {
+   border-radius : 8px;
+}
+
+.features .card h3 {
+    text-align : center;
+}
+
+.features .card p {
+    text-align : center;
+    padding : 1rem;
+    line-height : 1.5;
+}
+
