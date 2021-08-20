@@ -21,6 +21,15 @@ a {
     color : #202C39;
     margin : 1rem;
 }
+p1 {
+    font-size: large;
+    color: #c53d33;
+    display: block;
+    font-weight: 1000;
+    text-align: center;
+
+
+}
 
 nav {
     text-align : right;
