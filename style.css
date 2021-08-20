@@ -11,6 +11,7 @@
 }
 
 body {
+    background-color: #d3aa51dc;
     font-family : 'Roboto', sans-serif;
     color : #283845;
 }
@@ -19,6 +20,15 @@ a {
     text-decoration : none;
     color : #202C39;
     margin : 1rem;
+}
+p1 {
+    font-size: large;
+    color: #c53d33;
+    display: block;
+    font-weight: 1000;
+    text-align: center;
+
+
 }
 
 nav {
@@ -224,7 +234,7 @@ margin-right: 10em;
 }
 
 .box a {
-color: #999;
+color: #dfdddd;
 }
 
 .h-box {
@@ -234,13 +244,13 @@ column-gap: .25em;
 
 .b-footer {
 text-align: center;
-color: #999;
+color: #0e0a14ef;
 padding-top: 50px;
 }
 
 .l-footer p {
 padding-right: 20%;
-color: #999;
+color: #dfdddd;
 }   
 
 @media screen and (min-width: 600px) {
