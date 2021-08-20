@@ -12,6 +12,7 @@
 }
 
 body {
+    background-color: #d3aa51dc;
     font-family : 'Roboto', sans-serif;
     color : #283845;
 }
@@ -114,6 +115,12 @@ nav {
     margin-top : 16px;
 }
 
+.card .price {
+    text-align : center;
+    color : #c53d33;
+    font-weight : 700;
+}
+
 .card .descr {
     text-align : justify;
 }
@@ -153,6 +160,43 @@ nav {
     width : 100%;
 }
 
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    margin-top: 1em;
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    margin-top: 1em;
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+}
+
 .footer {
     float : left;
     padding: 50px;
@@ -174,7 +218,7 @@ nav {
     display : inline-block;
 }
 
-.l-footer img{
+.l-footer img {
     width: 80%;
 }
 
@@ -190,22 +234,19 @@ nav {
     padding-left: 0;
 }
 
-.footer li {
-    line-height: 2em;
-}
-
 .box a,
 .footer li {
-    color: #999;
+    color: #dfdddd;
 }
 
 .b-footer {
     text-align: center;
-    color: #999;
+    color: #0e0a14ef;
     padding-top: 50px;
 }
 
 .l-footer p {
     padding-right: 20%;
-    color: #999;
+    color: #dfdddd;
 }   
+
