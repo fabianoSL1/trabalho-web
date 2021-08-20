@@ -187,28 +187,28 @@ textarea {
 
 }
 
-.formulario h1 {
+#formulario h1 {
     margin-top: 120px;
     text-align: center;
     color: #80302a;    
 
 }
 
-.formulario {
+#formulario {
     display: flex;
     float: left;
     margin-bottom: 180px;
 }
 
 
-.formulario img {
+#formulario img {
     margin-top: 120px;
     margin-left: 150px;
     height: 300px;
     
 }
 
-.formulario button {
+#formulario button {
     margin-left: 260px;
 }
 
