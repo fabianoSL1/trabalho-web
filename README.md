@@ -1,2 +1,2 @@
 # trabalho-web
-site https://maranhaozinho.netlify.app/
+site https://nordeste.netlify.app/
